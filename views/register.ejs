@@ -1,0 +1,89 @@
+<%- include('header'); -%> 
+
+  <body>
+    <div class="banner">
+      <div class="logo">
+        <a href="http://www.hw.ac.uk" target="top">
+          <img src="hwu.png" width="64" height="64" alt="Logo HWU" />
+        </a>
+      </div>
+
+      <div class="title">
+        <h1>WEBSTORE</h1>
+      </div>
+    </div>
+
+    <div class="menu">
+      <table class="tmenu">
+        <thead>
+          <th id="th"></th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <a href="/">Home</a>
+            </td>
+            <td>
+              <a href="/api/catalog">Catalog</a>
+            </td>
+            <td>
+              <a href="/api/clients">Clients</a>
+            </td>
+            <td>
+              <a href="/contacts">Contacts</a>
+            </td>
+
+            <td>
+              <a href="controller.php?action=6">Cart</a>
+            </td>
+            <td>
+              <a href="/login">Sign-in</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="content">
+      <h1 id="welcome">Create an Account</h1>
+    </div>
+
+<div class="register">
+  <form>
+
+    <label for="username" >Please enter a username:</label><br>
+    <input type="text" id="username" required><br>
+    
+    <label for="pword" >Please enter a password:</label><br>
+    <input type="text" id="pword" required><br>
+
+    <label for="fullName" >Please enter your full name:</label><br>
+    <input type="text" id="fullName" required><br>
+
+    <label for="society" >Please enter the name of your society:</label><br>
+    <input type="text" id="society" required><br>
+
+     
+
+    <label for="address" >Please enter your address:</label><br>
+    <input type="text" id="address" required><br>
+
+    <label for="zipcode" >Please enter your zip code:</label><br>
+    <input type="text" length="5" id="zipcode" required><br>
+
+    <label for="city" >Please enter your city:</label><br>
+    <input type="text" id="city" required><br>
+
+    <label for="telPhone" >Please enter your phone number:</label><br>
+    <input type="text" length="14" id="telPhone"  required><br>
+
+    <label for="fax" >Please enter your fax:</label><br>
+    <input type="text" length="14" id="fax" required><br>
+
+    <input type="submit" value="submit">
+  </form>
+</div>
+
+<%- include('footer'); -%>
+
+
+   

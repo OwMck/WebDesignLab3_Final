@@ -1,0 +1,50 @@
+<%- include('header'); -%> 
+
+  <body>
+    <div class="banner">
+      <div class="logo">
+        <a href="http://www.hw.ac.uk" target="top">
+          <img src="hwu.png" width="64" height="64" alt="Logo HWU" />
+        </a>
+      </div>
+
+      <div class="title">
+        <h1>WEBSTORE</h1>
+      </div>
+    </div>
+
+    <div class="menu">
+      <table class="tmenu">
+        <thead>
+          <th id="th"></th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <a href="/">Home</a>
+            </td>
+            <td>
+              <a href="/api/catalog">Catalog</a>
+            </td>
+            <td>
+              <a href="/api/clients">Clients</a>
+            </td>
+            <td>
+              <a href="/contacts">Contacts</a>
+            </td>
+
+            <td>
+              <a href="controller.php?action=6">Cart</a>
+            </td>
+            <td>
+              <a href="/login">Sign-in</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="content">
+      <h1 id="welcome">WELCOME to Webstore</h1>
+    </div>
+
+<%- include('footer'); -%>
